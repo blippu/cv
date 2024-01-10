@@ -28,8 +28,8 @@ names = ['None', 'Leo', 'Jacques', 'Quentin', 'Z', 'W']
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
 cam.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'))
-cam.set(3, 1024) # set video widht
-cam.set(4, 768) # set video height
+#cam.set(3, 1024) # set video widht
+#cam.set(4, 768) # set video height
 
 # Define min window size to be recognized as a face
 minW = 0.1*cam.get(3)
