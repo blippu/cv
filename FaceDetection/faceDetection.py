@@ -17,7 +17,7 @@ faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xm
 cap = cv2.VideoCapture(0)
 # codec required for my logitec webcam
 #required for laptop, not my desktop
-#cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'))
+cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'))
 #cap.set(3,1024) # set Width
 #cap.set(4,576) # set Height
 
